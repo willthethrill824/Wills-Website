@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home </title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!-- Google Fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="navbar-container">
+        <div class="navbar">
+            <ul>
+              <li><a class="active" href="#top">Home</a></li>
+              <li><a class = "contact-nav" href="#contact">Contact</a></li>
+              <li style="float:right"><a href="#about">About</a></li>
+            </ul> 
+      </div>
+    </section>
+    
+    <section id="intro">
+        <div class="intro-content">
+            <img class="profile-picture" src="Images/IMG_0303.JPG" alt="profile-img">
+            <h1>William Hansen</h1>
+            <p>PUT SOMETHING HERE</p>
+        </div>
+    </section>
+
+    <section id="main" class="parent">
+        
+        <div id="contact" class="left-bubble bubble">
+            <div class="bubble-content-left">
+                <h3>Contact</h3>
+                <button class="contact-button button-left" onclick="expander('contact-button')">+</button>
+                <div class="hidden Contact-content">
+                    <h2>Contact Details</h2>
+                    <table>
+                        <tr><td><strong>Name: </strong></td> <td>William Tyler Hansen</td></tr>
+                        <tr><td><strong>Location: </strong></td><td>Rochester, Minnesota</td></tr>
+                        <tr><td><strong>Email: </strong></td><td>Williv824@gmail.com</td></tr>
+                        <tr><td><strong>Phone: </strong></td><td>+1 (507)-226-5147</td></tr>
+                        <tr><td><strong>Socials:</strong></td><td><a href="">LinkedIn</a> <a href="">Indeed</a></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-bubble bubble">
+            <div class="bubble-content-right">
+                <h3>Experience</h3>
+                <button class="experience-button button-right" onclick="expander('experience-button')">+</button>
+            </div>
+        </div>
+
+        <div class="left-bubble bubble">
+            <div class="bubble-content-left">
+                <h3>Education</h3>
+                <button class="education-button button-left" onclick="expander('education-button')">+</button>
+            </div>  
+        </div>
+
+        <div class="right-bubble bubble">
+            <div class="bubble-content-right">
+                <h3>Projects</h3>
+                <button class="projects-button button-right" onclick="expander('projects-button')">+</button>
+            </div>
+        </div>
+    
+    </section>
+
+    <section>
+        <div class="bottom"></div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
