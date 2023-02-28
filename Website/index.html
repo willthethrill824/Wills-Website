@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Home </title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!-- Google Fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="navbar-container">
+        <div class="navbar">
+            <ul>
+              <li><a class="active nav-button" href="#top">Home</a></li>
+              <li><a class = "contact-nav nav-button" href="#contact">Contact</a></li>
+              <li><a class = "projects-nav nav-button" href="#projects">Projects</a></li>
+              <li><a class = "education-nav nav-button" href="#education">Education/Skills</a></li>
+              <li style="float:right"><a class="active-nav nav-button" href="#about">About</a></li>
+            </ul> 
+      </div>
+    </section>
+    
+    <section id="intro">
+        <div class="intro-content">
+            <img class="profile-picture" src="Images/IMG_0303.JPG" alt="profile-img">
+            <h1>William Hansen</h1>
+            <p>Hello and welcome to my personal page!</p>
+        </div>
+    </section>
+
+    <section id="main" class="parent">
+
+        <div id="bio" class="top-bubble">
+            <div class="top-bubble-content">
+                <h2>Bio</h2>
+                <p>Hi! I am a recent Minnesota State University Grad with knowledge of functional computer architechture applied with coding languages and circuit analysis. Showcasing my strong mathematics and technical communication skills to develop solutions for modern problems. Most recently, I have been working with the North American Cognitive Power Hardware Support team within IBM. A special recent project of mine included utilizing my front-end development skills to generate a platform that makes API requests to load and display real-time data.I always strive towards maintaining a growth mindset to further develop skills and connections. 
+                </p>
+            </div>
+            
+        </div>
+        
+        <div id="contact" class="left-bubble bubble">
+            <div class="bubble-content-left">
+                <h3>Contact</h3>
+                <button class="contact-button button-left bubble-content" onclick="expander('contact-button')">+</button>
+                <div class="hidden Contact-content">
+                    <h2>Contact Details</h2>
+                    <table>
+                        <tr><td><strong>Name: </strong></td> <td>William Tyler Hansen</td></tr>
+                        <tr><td><strong>Location: </strong></td><td>Rochester, Minnesota</td></tr>
+                        <tr><td><strong>Email: </strong></td><td>Williv824@gmail.com</td></tr>
+                        <tr><td><strong>Phone: </strong></td><td>+1 (507)-226-5147</td></tr>
+                        <tr><td><strong>Socials:</strong></td><td><a href="">LinkedIn</a> <a href="">Indeed</a></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-bubble bubble">
+            <div class="bubble-content-right">
+                <h3>Experience</h3>
+                <button class="experience-button button-right" onclick="expander('experience-button')">+</button>
+                <div class="hidden experience-content">
+                    <h2>Experience</h2>
+                    <ul>
+                        <li>
+                            <h2><strong>Cognitive Power Hardware RTS | IBM | Hardware Developer | Rochester, MN | May 2022- Present</strong> </h2>
+                            <p>In this role I am getting a great professional experience by efficiently communicating with IBM Fortune 500 clients to gather necessary information to analyze, asses, diagnose issues on Power Hardware servers.
+                                 My main area of expertise is in both the IBMi and AIX data analysis. 
+                                 This role includes key industy skills such as technical communication, access key generation, remote logins, networking, and more. 
+                                 Another key aspect to my role at IBM is my hardware development involvement. 
+                                 This involves working with the product engineering team to torubleshoot and assist in setup and documentation of Power hardware installation.</p>
+                        </li>
+                        <li>
+                            <h2><strong>DDC Programmer | Paape Companies Inc. | Mankato, MN | June 2021 - April 2022</strong> </h2>
+                            <p>Program and maintain the automation systems that control HVAC systems and equipment for large scale commercial customers. Includes programming and networking of PLCs using analog and digital inputs and outputs.
+                                Consists of writing scripts and programs that control actuators, opening valves and dampers to properly and effectively reach required setpoints.
+                                Use of AutoCad, Teams, Schneider EcoStruxure, Continuum, Script/Plain English, to build complex automation control systems. 
+                                Programming and designing client side custom UI to interact with and monitor equipment. 
+                                </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="education" class="left-bubble bubble">
+            <div class="bubble-content-left education">
+                <h3>Education</h3>
+                <button class="education-button button-left button-content" onclick="expander('education-button')">+</button>
+                <div class="hidden education-content">
+                    <h2>Education</h2>
+                    <h2><strong><a href="https://www.mnsu.edu/">Minnesota State University, Mankato</a> | August 2017 - May 2022 | B.S. Computer Engineering and Technology | GPA 3.41 Cum Laude </strong></h2>
+                    <ul class="college">
+                        <li>Computer Engineering and Technology B.S. , EET, Internet of Things , Mathematics. </li>
+                        <li>Relevant courses: Calculus III, Differential Equations, Wireless Networking, Elec. Shop, Electronics II, Quality Management Systems, Analog Communications,Multisim/LTSpice Circuit design</li>
+                    </ul>
+                    <h2><strong>Skills</strong></h2>
+                    <ul id="mySkills" class="skills">
+                        <!-- <li>Experience with: Python/C/HTML/CSS/javascript/JQuery/node.js/Unix/APIs/MATLAB/Verilog/VHDL</li>
+                        <li> - Computer Hardware Engineering</li> <li> - Ciricuit Simulation/Analysis</li><li> - Eagle</li> <li> - Computer Networking</li> <li> - CAD Design</li> <li> - PCB Design</li> <li> - Soldering</li> <li> - Client Technical Communication</li> <li> - Hardware Problem analysis/debugging</li> <li> - VPN/Remote Connections</li> <li> - Mathematics</li> -->
+                    </ul>
+                </div>
+            </div>  
+        </div>
+
+        <div id="projects" class="right-bubble bubble">
+            <div class="bubble-content-right">
+                <h3>Projects</h3>
+                <button class="projects-button button-right" onclick="expander('projects-button')">+</button>
+                <div class="hidden projects-content">
+                    <h2>Projects</h2>
+                    <ul>
+                        <strong>
+                            <li>This Website is one big project of mine as I am always editing and tweaking things.</li> 
+                            <li>Me and a longtime friend are using our automationa and programming skills to create an automatic cat feeder</li>
+                            <li>Installed and programmed Allen-Bradley/Rockwell automation equipment for the Industrial Automation lab at MNSU Mankato</li>
+                        </strong>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="hobbies" class="left-bubble bubble">
+            <div class="bubble-content-left">
+                <h3>Hobbies</h3>
+                <button class="hobbies-button button-left" onclick="expander('hobbies-button')">+</button>
+                <div class="hidden hobbies-content">
+                   <h2>Hobbies</h2>
+                    <ul>
+                        <strong>
+                            <li>Compete on the IBM Corporate Rocket league team and alumn to the MNSU eSports Rocket league team</li>
+                            <li>Living with, walking, sledding and playing with my husky Sova.</li>
+                            <li>I also enjoy getting outdoors by going disc golfing (frolfing) as well as regular golf as well.</li>
+                            <li>Spending time at home is inevitable so I tend to spend a good amount of time on my PC that I personally built last spring.</li>
+                        </strong>
+                    </ul>
+                </div>
+            </div>  
+        </div>
+    
+    </section>
+
+    <section>
+        <div class="bottom"></div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
