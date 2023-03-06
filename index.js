@@ -58,12 +58,12 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 
 
 const skills = [
-    "Software development and programming skills in languages such as Java, C++, Python, JavaScript, and HTML/CSS.",
+    "Software development and programming skills in languages such as Python, C, Python, JavaScript, and HTML/CSS.",
     "Proficiency in network design and implementation, including LAN, WAN, and wireless networks.",
     "Knowledge of database design, administration, and maintenance.",
     "Experience with microcontroller programming, hardware interfacing, and embedded systems design.",
     "Understanding of computer architecture, operating systems, and computer hardware components.",
-    "Familiarity with software development methodologies and tools, such as Agile, Git, and JIRA.",
+    "Familiarity with software development methodologies and tools, such as Git.",
     "Strong analytical and problem-solving skills to identify and troubleshoot complex issues.",
     "Ability to design and develop IoT solutions using sensors, actuators, and other devices.",
     "Strong mathematical skills, including algebra, calculus, and statistics.",
@@ -71,7 +71,7 @@ const skills = [
     "Good communication skills to collaborate with cross-functional teams and stakeholders.",
     "Ability to document technical designs, requirements, and project specifications.",
     "Experience with project management methodologies and tools to manage project timelines and budgets.",
-    "Understanding of machine learning, artificial intelligence, and data analytics principles to analyze and interpret data.",
+    "Fundamental understanding of machine learning, artificial intelligence, and data analytics principles to analyze and interpret data.",
     "Familiarity with cloud computing, virtualization, and containerization technologies."
   ];
   
