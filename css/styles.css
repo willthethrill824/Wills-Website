@@ -284,6 +284,18 @@ button:active{
   /* overflow: hidden; */
   overflow-y: scroll;
 }
+.college::-webkit-scrollbar{
+  width: 15px;
+}
+.college::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+.college::-webkit-scrollbar-thumb{
+  background: grey; 
+  border-radius: 10px;
+}
+
 .education-content .skills{
   margin-top: 0;
   display: inline-block;
@@ -330,6 +342,7 @@ button:active{
   padding: 2% 13%;
   line-height: 2;
 }
+
 /* Hobbies */
 .hobbies-content{
   text-align: center;
