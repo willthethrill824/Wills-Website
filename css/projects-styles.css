@@ -1,0 +1,135 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: auto;
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+
+/* Navigation bar setup */
+#navbar-container{
+  margin: 0;
+}
+
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ececec;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover{
+  background-color: #6b6b6b;
+  color: white;
+  
+}
+
+.navbar .active {
+  background-color: #dddddc;
+}
+
+.nav-button{
+  transition: 0.25s;
+}
+
+.profile-picture{
+  margin: 7 5 0 5;
+  object-fit: cover;
+  width: 2em;
+  border-radius: 100%;
+}
+
+/* Main*/
+
+.bubble{
+  margin: 3%;
+  height: 400px;
+  background-color: white;
+  border-radius: 40px;
+  padding: 5px;
+}
+
+.content-title{
+  /* padding-top: 5px; */
+  text-align: center;
+  background-color: white;
+}
+
+.hr{
+  color: black;
+  height: 1px;
+  border-width: 0;
+  background-color: black;
+}
+
+.content-body{
+  border-color: black;
+  border-width: 5px;
+  display: block;
+}
+
+.content-description{
+  margin: auto 20px;
+  text-align:justify;
+}
+.RSA-demo{
+  text-align: center;
+}
+
+/* Bottom section */
+
+.bottom{
+  border-top: solid black 1.5px;
+  height: 250px;
+  background-color: rgb(54, 54, 54);
+}
+
+
+/* Animated background */
+#main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: linear-gradient(333deg, #fd4007, #4c00fd);
+  background-size: 600% 600%;
+  animation: AnimationName 20s ease infinite;    
+}
+
+@keyframes AnimationName {
+    0%{background-position:2% 0%}
+    50%{background-position:99% 100%}
+    100%{background-position:2% 0%}
+}
+
+@media (max-width:700px){
+  .bubble{
+    height: 750px;
+  }
+  
+  .experience-content{
+    margin: auto 4%;
+  }
+}
